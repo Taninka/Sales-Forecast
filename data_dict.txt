@@ -1,0 +1,15 @@
+Only fields that are not sel-explanatory are explained:
+
+store - ID for each store
+sales - the turnover given day (target variable)
+customers_count - customers in store on a given day
+store_open - 0 = closed, 1 = open
+state_holiday - 0 : No holiday, a : public, b : Easter, c : Christmas
+school_holiday - closed : 1, 0 : open
+store_type - 4 types: a, b, c, d
+Assortment - a : basic, b : extra, c : extended
+competition_distance - distance to the nearest competitor (in meters)
+competition_open_since_month_year - year and month of the time the nearest competitor was opened
+Promo - promo on given day
+Promo2 - continuing promotion: 0 : not participating, 1 : participating
+promo2_since_week / Promo2_since_year - week and year store started with Promo 2
